@@ -4,7 +4,12 @@ public class BasicJava {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.print("hi bro!!!");
+		for (int i = 5; i < 10; i++) {
+			if (i == 5)
+				break;
+			System.out.println(i);
+		}
+
 		
 
 	}
